@@ -1,0 +1,21 @@
+package main;
+
+import java.io.File;
+
+public class ViDuTaoTapTinVaThuMuc {
+public static void main(String[] args) {
+	//Luu y:
+	//MS WINDOWS : \ => \\  ViD: "C:\\Thu Muc 1\\Thu Muc\\Ten tap tin.xxx"
+	
+	//Kiem tra thu muc xem ton tai hay khong ?
+	File folder1 = new File("C:\\Users\\hieub\\eclipse-workspace\\Java_67_file");
+	File folder2 = new File("C:\\Users\\hieub\\eclipse-workspace\\Java_68_file");
+	System.out.println("Kiem tra folder1 co ton tai hay ko: " + folder1.exists());
+	System.out.println("Kiem tra folder2 co ton tai hay ko: " + folder2.exists());
+
+	//Tao thu muc
+	//Phuong thuc mkdir()
+	File d1 = new File("C:\\\\Users\\\\hieub\\\\eclipse-workspace\\\\Java_67_file/Directory_1");
+	d1.mkdir();
+}
+}

@@ -1,0 +1,24 @@
+package test7;
+
+public class Employee extends Person{
+		private String jobTitle,EmployeeID;
+
+		public Employee(String firstName, String lastName, String jobTitle, String employeeID) {
+			super(firstName, lastName);
+			this.jobTitle = jobTitle;
+			EmployeeID = employeeID;
+		}
+
+		public String getEmployeeID() {
+			return this.EmployeeID;
+		}
+
+		@Override
+		public String getLastName() {
+			return super.getLastName() + "," + this.jobTitle;
+		}
+	
+	
+	
+	
+}

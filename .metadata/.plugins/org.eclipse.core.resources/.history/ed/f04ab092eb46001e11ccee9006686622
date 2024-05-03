@@ -1,0 +1,23 @@
+package test4;
+
+public class HRManager extends Employee {
+
+	public HRManager( int salary) {
+		super( salary);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void addEmployee() {
+		System.out.println("\n Adding new employees");
+	}
+	
+	@Override
+	public void work() {
+		System.out.println("\n Managing employees");
+	}
+	
+	
+	
+	
+	
+}

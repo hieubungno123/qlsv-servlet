@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 -config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 " name="Tomcat v8.5 " runtime-id="Tomcat v8.5 " server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="34">
+    <list key="modules" value0="BasicServletP1::org.eclipse.jst.jee.server:BasicServletP1::jst.web::3.1" value1="HelloWorld::org.eclipse.jst.jee.server:HelloWorld::jst.web::3.1" value2="InputYourName::org.eclipse.jst.jee.server:InputYourName::jst.web::3.1" value3="qlsv2::org.eclipse.jst.jee.server:qlsv2::jst.web::3.1" value4="qlsv3::org.eclipse.jst.jee.server:qlsv3::jst.web::3.1" value5="movie-app::org.eclipse.jst.jee.server:movie-app::jst.web::3.1"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5  at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5  at localhost" name="Tomcat v8.5  at localhost" runtime-id="Tomcat v8.5 " server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="qlsv2::org.eclipse.jst.jee.server:qlsv2::jst.web::3.1"/>
+  </server>
+</servers>

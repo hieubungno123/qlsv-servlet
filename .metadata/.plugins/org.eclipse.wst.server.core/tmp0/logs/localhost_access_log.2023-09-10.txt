@@ -1,0 +1,16 @@
+127.0.0.1 - - [10/Sep/2023:14:51:31 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:55:07 +0700] "GET /ch05_ex2_email/index.html HTTP/1.1" 200 937
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:55:10 +0700] "GET /ch05_ex2_email/styles/main.css HTTP/1.1" 404 711
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:55:10 +0700] "GET /favicon.ico HTTP/1.1" 404 684
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:57:15 +0700] "GET /ch05_ex2_email/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:57:15 +0700] "GET /ch05_ex2_email/styles/main.css HTTP/1.1" 200 838
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:58:47 +0700] "GET /ch05_ex2_email/index.html HTTP/1.1" 200 953
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:58:47 +0700] "GET /ch05_ex2_email/styles/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:59:04 +0700] "GET /ch05_ex2_email/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:59:07 +0700] "GET /ch05_ex2_email/styles/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:59:07 +0700] "GET /favicon.ico HTTP/1.1" 404 684
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:59:14 +0700] "GET /ch05_ex2_email/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:14:59:15 +0700] "GET /ch05_ex2_email/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:15:00:23 +0700] "GET /ch05_ex2_email/thanks.html HTTP/1.1" 200 805
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:15:00:23 +0700] "GET /ch05_ex2_email/styles/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Sep/2023:15:00:28 +0700] "POST /ch05_ex2_email/thanks.html HTTP/1.1" 200 805

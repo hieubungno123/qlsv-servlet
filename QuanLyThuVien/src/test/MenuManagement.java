@@ -1,0 +1,71 @@
+package test;
+
+import java.util.Scanner;
+
+//public  Scanner sc = new Scanner(System.in);
+
+public class MenuManagement {
+	private final BookLogic booklogic = new BookLogic();
+	private final ReaderLogic readerlogic = new ReaderLogic();
+	private final BorrowBookLogic borrowBookLogic = new BorrowBookLogic(booklogic, readerlogic);
+	
+	public void run() {
+		while(true) {
+			menu();
+			int selection = chooseFuntion();
+			switch (selection) {
+			case 1:
+				booklogic.inputBook();
+				break;
+			case 2:
+				booklogic.outputBook();
+				break;
+			case 3:
+				readerlogic.inputReader();		
+				break;
+			case 4:
+				readerlogic.outputReader();
+				break;
+			case 5:
+				borrowBookLogic.borrowBook();
+				break;
+			case 6:
+				borrowBookLogic.showBorrow();
+				break;
+			case 9:
+				return;
+			}
+		}
+	}
+	
+	
+	
+	public static int chooseFuntion() {
+        int funtionChoise;
+        do {
+			funtionChoise = new Scanner(System.in).nextInt();
+			if(funtionChoise >= 1 && funtionChoise <= 9){
+                break;
+            }
+            System.out.println("Chức nắng nhập không hợp lệ, xin vui lòng nhập lại...");
+		} while (true);
+        return funtionChoise;
+	}
+	
+	public static void menu() {
+		System.out.println("-----MENU-----");
+		System.out.println("1.Nhap danh sach đầu sách");
+		System.out.println("2.In danh sach các đầu sách");
+		System.out.println("3.Nhap danh sach nguoi đọc");
+		System.out.println("4.In danh sách người đọc");
+		System.out.println("5.Nhap danh sach nguoi mượn sách");
+		System.out.println("6.In danh sach nguoi muon sach");
+		System.out.println("7.Xắp xếp danh sách Quản lý mượn sách");
+		System.out.println("8.Tìm kiếm và hiển thị danh sách theo tên bạn đọc");
+		System.out.println("9.Thoát ra khỏi menu");
+		System.out.print("Vui lòng nhập chức năng: ");
+	}		
+
+}
+
+

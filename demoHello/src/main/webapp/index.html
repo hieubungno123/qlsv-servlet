@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hello title here</title>
+<link rel="stylesheet" href="style/servey.css">
+</head>
+<body>
+	<form action = "servey" method="post">
+		<img src="images/murachlogo.jpg" alt="logo" />
+		<h1>Survey</h1>
+		<p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+		
+        <h2>Your information:</h2>
+        <label >First Name</label>
+        <input type="text" name="fname" required> <br>
+        <label >Last Name</label>
+        <input type="text" name="lname" required><br>
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required> <br>
+        <label for="pwd" >Password:</label>
+        <input type="password" id="pwd" name="pwd" required><br>
+        <label>Email</label>
+        <input type="text" name="email" required><br>
+        <label>Date of Birth</label>
+        <input type="text" name="DoB" required><br>
+        
+        <h2>How did you hear about us?</h2>
+       	<p><input type="radio" name="heardFrom" value="Social Media"> Social Media
+      	  <input type="radio" name="heardFrom" calue="Word of mouth"> Word of mouth
+       	 <input type="radio" name="heardFrom" value="Search Engine"> Search Engine 
+       	 <input type="radio" name="heardFrom" value="Other"> Other</p>
+       	 
+       	 <h2>Would you like to receive announcements about new CDs and specials offers ?</h2>
+       	 <input type="checkbox" name="wantsUpdates"> YES, I'd like that <br><br>
+       	 <input type="checkbox" name="emailOK"> YES, please send me email announcements <br><br>
+       	 
+       	 <label>Please contact me by:</label>
+       	 <select id="optionSend" name="optionSend">
+				<option value="Both">Email or postal</option>
+				<option value="Email">Email only</option>
+				<option value="Postal Mail">Postal mail only</option>
+			</select>
+		<br><br>
+		<input type="submit" value="submit">
+		<input type="reset" value="return">
+		
+	</form>
+	
+</body>
+</html> 

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+}
+
+.navbar-brand{
+	font-size: 2rem;
+    color: black;
+}
+
+.nav-link{
+	margin-right: 15px;
+	margin-left: 15px;
+	text-transform: uppercase;
+    color: black;
+}
+
+.search{
+	height: 40px;
+	width: 75%;
+	border-radius : 50px;
+	margin-right: -35px;
+	outline: none;
+	border: 2px solid red;
+}
+
+.btn0{
+	height: 40px;
+	width: 30%;
+	border-radius : 25px;
+	border: 2px solid red;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	
+}

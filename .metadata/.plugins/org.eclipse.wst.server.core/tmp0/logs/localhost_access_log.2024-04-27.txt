@@ -1,0 +1,9 @@
+127.0.0.1 - - [27/Apr/2024:23:51:35 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:51:46 +0700] "GET /movie-app/index.jsp HTTP/1.1" 200 584
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:51:57 +0700] "GET /movie-app/index.jsp HTTP/1.1" 200 584
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:51:58 +0700] "GET /movie-app/css/blockedPage.css HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:51:58 +0700] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:52:27 +0700] "GET /movie-app/index.jsp HTTP/1.1" 200 337
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:52:27 +0700] "GET /movie-app/css/blockedPage.css HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:52:37 +0700] "GET /movie-app/index.jsp HTTP/1.1" 200 584
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:23:52:38 +0700] "GET /movie-app/css/blockedPage.css HTTP/1.1" 404 788

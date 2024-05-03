@@ -1,0 +1,15 @@
+package test7;
+
+public class Main {
+	public static void main(String[] args) {
+		Employee eml1 = new Employee("Hiếu", "Trần", "IT", "B21DVCN076");
+		System.out.println(eml1.getFirstName()+" "+eml1.getLastName()
+		+" ("+eml1.getEmployeeID()+")");
+		
+		Employee eml2 = new Employee("Doanh", "Nguyễn", "HR Manager", "B21FSD457");
+		System.out.println(eml2.getFirstName()+" "+eml2.getLastName()
+		+" ("+eml2.getEmployeeID()+")");
+
+	
+	}
+}

@@ -1,0 +1,9 @@
+package test;
+
+import user.Book;
+import user.BorrowBookManagement;
+
+public class SearchReader {
+	private BorrowBookManagement details = new BorrowBookManagement();
+	
+}
